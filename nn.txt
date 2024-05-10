@@ -1,3 +1,21 @@
+enable
+configure terminal
+
+config-if pe karna hai
+
+no ip address
+no shutdown
+interface FastEthernet0/0.10  //.10 is subnet
+encapsulation dot1q 10 // 10 is vlan number
+ip address 192.168.10.1 255.255.255.0
+exit
+
+
+do not forget to swotch on the port
+
+
+
+
 udp server
 
 #include <stdio.h>
